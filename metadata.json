@@ -1,0 +1,6 @@
+{
+  "name": "Environment Book AI",
+  "description": "An interactive real-time environmental issue reporting, AI analysis & solution router, waste-to-business ideator, and future hazard projection platform.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

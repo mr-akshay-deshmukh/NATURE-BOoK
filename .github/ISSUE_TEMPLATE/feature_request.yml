@@ -1,0 +1,37 @@
+name: 💡 Feature Request
+description: Propose a new feature, ecological indicator, or idea for Nature BoOk.
+title: "[FEATURE]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to improve environmental tracking, AI remediation guides, or citizen volunteering? Let's hear it!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement or Use Case
+      description: Is your feature request related to a specific ecological problem or workflow?
+      placeholder: "e.g., Communities in mangrove biomes need specialized bio-remediation protocols for high-saline chemical spills."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what you would like to see happen.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or features you considered.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be interested in submitting a Pull Request to implement this!

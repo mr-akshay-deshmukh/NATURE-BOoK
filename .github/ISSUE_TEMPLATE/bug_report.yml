@@ -1,0 +1,56 @@
+name: 🐛 Bug Report
+description: Create a report to help us fix a bug or unexpected behavior in Nature BoOk.
+title: "[BUG]: "
+labels: ["bug", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue in **Nature BoOk**! Please provide as much context as possible.
+  - type: input
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: A concise summary of what went wrong.
+      placeholder: e.g., Global Hazard Map pins fail to render when coordinates are near the prime meridian.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reliably reproduce this issue?
+      placeholder: |
+        1. Navigate to the 'Live Dashboard' tab.
+        2. Click 'Quick Report' with sample preset 'River Degradation'.
+        3. Submit report and observe map behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Browser / Platform
+      options:
+        - Chrome / Chromium
+        - Firefox
+        - Safari
+        - Edge
+        - Mobile Chrome (Android)
+        - Mobile Safari (iOS)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console Logs / Screenshots
+      description: Paste any browser developer console errors or drag-and-drop screenshots here.
