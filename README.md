@@ -353,5 +353,5 @@ For vulnerability reports and disclosure guidelines, please see [SECURITY.md](SE
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
-  <sub>Built with 🌿 for a cleaner, resilient planet. Nature BoOk © 2026.</sub>
+  <sub>Built with 🌿 for a cleaner, resilient planet. Nature BoOk Modules.</sub>
 </div>
