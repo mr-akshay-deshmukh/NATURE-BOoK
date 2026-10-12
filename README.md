@@ -44,11 +44,11 @@
 ### 1. 🗺️ Global Threat Map & Spatial Intelligence
 - Built on the official **Google Maps Platform** via `@vis.gl/react-google-maps`.
 - Visualizes environmental crisis sites worldwide with real-time coordinate plotting.
-- Dynamic color-coded status pins:
-  - 🔴 **Reported**: Newly logged ecological threat awaiting triage.
-  - 🟡 **Analyzing**: AI bio-remediation engine generating action pathways.
-  - 🔵 **Implementing**: Community responders and bio-materials actively deployed.
-  - 🟢 **Resolved**: Habitat restored and verification metrics confirmed.
+- marked solution:
+  -  Reported: Newly logged ecological threat awaiting triage.
+  -  Analyzing: AI bio-remediation engine generating action pathways.
+  -  Implementing: members responders and bio-materials actively deployed.
+  - Resolved: Habitat restored and verification metrics confirmed.
 - Interactive information windows with instant report inspection and direct zoom.
 
 ### 2. 📊 Live Impact & Ecological Analytics Dashboard
